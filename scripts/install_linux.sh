@@ -6,4 +6,6 @@ mv barrage_build/barrage_linux_x64.tgz ./
 rm -rf barrage_build 
 tar -xvf barrage_linux_x64.tgz
 rm barrage_linux_x64.tgz
+echo barrage > ~/.erlang.cookie
+chmod 755 ~/.erlang.cookie
 
